@@ -115,7 +115,7 @@ long editDistance(string str1, string str2) {
 
 void main() {
 	string str1 = "tooloi ikis ";
-	string str2 = "_______tolaoo iik ";
+	string str2 = "______tolaoo iik ";
 
 	cout << editDistance(str1, str2);
 	getchar();
